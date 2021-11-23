@@ -359,24 +359,24 @@ void GetCmdLogitechWheelNative(CCommands *c, const DeviceID deviceID)
             c->cmds[0][7] = 0x00;
 
             // Partial button mapping
-            c->cmds[1][0] = 0xf8;
-            c->cmds[1][1] = 0x01;
-            c->cmds[1][2] = 0x00;
-            c->cmds[1][3] = 0x00;
-            c->cmds[1][4] = 0x00;
-            c->cmds[1][5] = 0x00;
-            c->cmds[1][6] = 0x00;
-            c->cmds[1][7] = 0x00;
+            // c->cmds[1][0] = 0xf8;
+            // c->cmds[1][1] = 0x01;
+            // c->cmds[1][2] = 0x00;
+            // c->cmds[1][3] = 0x00;
+            // c->cmds[1][4] = 0x00;
+            // c->cmds[1][5] = 0x00;
+            // c->cmds[1][6] = 0x00;
+            // c->cmds[1][7] = 0x00;
             
             // Full button mapping with clutch
-//            c->cmds[1][0] = 0xf8;
-//            c->cmds[1][1] = 0x09;
-//            c->cmds[1][2] = 0x04;
-//            c->cmds[1][3] = 0x01;
-//            c->cmds[1][4] = 0x00;
-//            c->cmds[1][5] = 0x00;
-//            c->cmds[1][6] = 0x00;
-//            c->cmds[1][7] = 0x00;
+           c->cmds[1][0] = 0xf8;
+           c->cmds[1][1] = 0x09;
+           c->cmds[1][2] = 0x04;
+           c->cmds[1][3] = 0x01;
+           c->cmds[1][4] = 0x00;
+           c->cmds[1][5] = 0x00;
+           c->cmds[1][6] = 0x00;
+           c->cmds[1][7] = 0x00;
 
 			c->count = 2;
             
